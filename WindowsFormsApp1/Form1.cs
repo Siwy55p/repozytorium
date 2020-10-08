@@ -16,7 +16,7 @@ using AutoItX3Lib;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class DriTelAd : Form
     {
 
         // Get a handle to an application window.
@@ -81,7 +81,7 @@ namespace WindowsFormsApp1
             mouse_event(MOUSEEVENTF_LEFTUP, 998, 546, 0, new System.IntPtr());
         }
 
-        public Form1()
+        public DriTelAd()
         {
             InitializeComponent();
             g1 = this.CreateGraphics();
